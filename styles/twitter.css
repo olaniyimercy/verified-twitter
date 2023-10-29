@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/mercy.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.container {
+    background-color: rgba(52,59,68,0.7);
+    width: 450px;
+    height: 200px;
+    margin-bottom: 45px;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+.profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.none {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tick {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.mercy {
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.other {
+    color: gray;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.quote {
+    font-size: 30px;
+    color: white;
+    margin-top: 16px;
+}
